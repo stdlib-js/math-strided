@@ -55,6 +55,12 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`special`][@stdlib/math/strided/special]</span><span class="delimiter">: </span><span class="description">standard library strided array special math functions.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -136,6 +142,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-strided/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/math/strided/special]: https://github.com/stdlib-js/math-strided-special
 
 <!-- </toc-links> -->
 
