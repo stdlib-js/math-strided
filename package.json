@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/math-strided",
+  "version": "0.0.0",
+  "description": "Strided array math functions.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-strided.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "vector",
+    "array",
+    "ndarray",
+    "element-wise",
+    "elementwise",
+    "math",
+    "mathematics",
+    "strided"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
