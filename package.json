@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-strided",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Strided array math functions.",
   "license": "Apache-2.0",
   "author": {
