@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/math-strided-ops": "^0.0.x",
     "@stdlib/math-strided-special": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x"
   },
