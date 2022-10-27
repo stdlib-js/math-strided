@@ -24,20 +24,30 @@ limitations under the License.
 
 > Strided array math functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-strided
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { ops, special } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided@deno/mod.js';
+var ns = require( '@stdlib/math-strided' );
 ```
 
 #### ns
@@ -55,6 +65,7 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`ops`][@stdlib/math/strided/ops]</span><span class="delimiter">: </span><span class="description">strided array math operations.</span>
 -   <span class="signature">[`special`][@stdlib/math/strided/special]</span><span class="delimiter">: </span><span class="description">strided array special math functions.</span>
 
 </div>
@@ -74,8 +85,8 @@ The namespace contains the following:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-strided' );
 
 console.log( objectKeys( ns ) );
 ```
@@ -101,7 +112,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -163,7 +174,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/strided/special]: https://github.com/stdlib-js/math-strided-special/tree/deno
+[@stdlib/math/strided/ops]: https://github.com/stdlib-js/math-strided-ops
+
+[@stdlib/math/strided/special]: https://github.com/stdlib-js/math-strided-special
 
 <!-- </toc-links> -->
 
