@@ -65,6 +65,7 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`ops`][@stdlib/math/strided/ops]</span><span class="delimiter">: </span><span class="description">strided array math operations.</span>
 -   <span class="signature">[`special`][@stdlib/math/strided/special]</span><span class="delimiter">: </span><span class="description">strided array special math functions.</span>
 
 </div>
@@ -172,6 +173,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-strided/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/math/strided/ops]: https://github.com/stdlib-js/math-strided-ops
 
 [@stdlib/math/strided/special]: https://github.com/stdlib-js/math-strided-special
 
