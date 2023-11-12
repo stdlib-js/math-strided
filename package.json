@@ -38,7 +38,8 @@
   "dependencies": {
     "@stdlib/math-strided-ops": "^0.1.0",
     "@stdlib/math-strided-special": "^0.1.0",
-    "@stdlib/utils-define-read-only-property": "^0.1.1"
+    "@stdlib/utils-define-read-only-property": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.1.0",
