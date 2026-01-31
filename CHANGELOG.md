@@ -2,17 +2,38 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-05-26)
+## 0.3.0 (2026-01-31)
+
+<section class="features">
+
+### Features
+
+-   [`4f2a179`](https://github.com/stdlib-js/stdlib/commit/4f2a1793b12243ce6344a2a85380aa68dbb29a91) - update `math/strided/special` TypeScript declarations
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - update include path
+-   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - update supported dtypes
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 37 issues were closed in this release:
 
-[#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6615](https://github.com/stdlib-js/stdlib/issues/6615), [#6627](https://github.com/stdlib-js/stdlib/issues/6627), [#6629](https://github.com/stdlib-js/stdlib/issues/6629), [#6761](https://github.com/stdlib-js/stdlib/issues/6761), [#6808](https://github.com/stdlib-js/stdlib/issues/6808)
+[#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5960](https://github.com/stdlib-js/stdlib/issues/5960), [#6083](https://github.com/stdlib-js/stdlib/issues/6083), [#6312](https://github.com/stdlib-js/stdlib/issues/6312), [#6502](https://github.com/stdlib-js/stdlib/issues/6502), [#6615](https://github.com/stdlib-js/stdlib/issues/6615), [#6627](https://github.com/stdlib-js/stdlib/issues/6627), [#6629](https://github.com/stdlib-js/stdlib/issues/6629), [#6761](https://github.com/stdlib-js/stdlib/issues/6761), [#6808](https://github.com/stdlib-js/stdlib/issues/6808), [#6914](https://github.com/stdlib-js/stdlib/issues/6914), [#7061](https://github.com/stdlib-js/stdlib/issues/7061), [#7104](https://github.com/stdlib-js/stdlib/issues/7104), [#7135](https://github.com/stdlib-js/stdlib/issues/7135), [#7487](https://github.com/stdlib-js/stdlib/issues/7487), [#7544](https://github.com/stdlib-js/stdlib/issues/7544), [#7549](https://github.com/stdlib-js/stdlib/issues/7549), [#7559](https://github.com/stdlib-js/stdlib/issues/7559), [#7561](https://github.com/stdlib-js/stdlib/issues/7561), [#7623](https://github.com/stdlib-js/stdlib/issues/7623), [#7899](https://github.com/stdlib-js/stdlib/issues/7899), [#8014](https://github.com/stdlib-js/stdlib/issues/8014), [#8201](https://github.com/stdlib-js/stdlib/issues/8201), [#8216](https://github.com/stdlib-js/stdlib/issues/8216), [#8262](https://github.com/stdlib-js/stdlib/issues/8262), [#8726](https://github.com/stdlib-js/stdlib/issues/8726), [#8759](https://github.com/stdlib-js/stdlib/issues/8759), [#8980](https://github.com/stdlib-js/stdlib/issues/8980), [#9334](https://github.com/stdlib-js/stdlib/issues/9334), [#9356](https://github.com/stdlib-js/stdlib/issues/9356), [#9419](https://github.com/stdlib-js/stdlib/issues/9419), [#9463](https://github.com/stdlib-js/stdlib/issues/9463), [#9658](https://github.com/stdlib-js/stdlib/issues/9658), [#9812](https://github.com/stdlib-js/stdlib/issues/9812)
 
 </section>
 
@@ -24,9 +45,47 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`225a1d9`](https://github.com/stdlib-js/stdlib/commit/225a1d993e50804e3ae39f5effe14508bc253015) - **chore:** fix JavaScript lint errors [(#9813)](https://github.com/stdlib-js/stdlib/pull/9813) _(by nnyouung, Athan Reines)_
+-   [`b6d9f4d`](https://github.com/stdlib-js/stdlib/commit/b6d9f4d465b6a0ec5ceac8d3d5dda7aaa4c6d8c6) - **chore:** fix JavaScript lint errors [(#9659)](https://github.com/stdlib-js/stdlib/pull/9659) _(by Shreelaxmi Hegde, Athan Reines)_
+-   [`8289a03`](https://github.com/stdlib-js/stdlib/commit/8289a036ebd5f568c35541a480ccdc341ba706af) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/strunc` [(#9481)](https://github.com/stdlib-js/stdlib/pull/9481) _(by kshitijgarg2811-oss, Athan Reines)_
+-   [`e47459a`](https://github.com/stdlib-js/stdlib/commit/e47459a872746e9329b52b4bec80c8559d72543c) - **chore:** fix C lint errors [(#9475)](https://github.com/stdlib-js/stdlib/pull/9475) _(by Geo Daoyu)_
+-   [`c47ee05`](https://github.com/stdlib-js/stdlib/commit/c47ee053dcaa0ef5f9d5978e68eaa47c952816d5) - **chore:** fix JavaScript lint errors [(#9427)](https://github.com/stdlib-js/stdlib/pull/9427) _(by Shreelaxmi Hegde, Athan Reines)_
+-   [`6bffb72`](https://github.com/stdlib-js/stdlib/commit/6bffb72dafd6925a88faba949e57c9efa080a26f) - **chore:** fix JavaScript lint errors [(#9365)](https://github.com/stdlib-js/stdlib/pull/9365) _(by Jugal Patel, Athan Reines)_
+-   [`8c61391`](https://github.com/stdlib-js/stdlib/commit/8c613911043f76c6b41f0d3943163cd0237578f3) - **chore:** fix JavaScript lint errors [(#9337)](https://github.com/stdlib-js/stdlib/pull/9337) _(by DivitJain26, Athan Reines)_
+-   [`a12ad26`](https://github.com/stdlib-js/stdlib/commit/a12ad26bb84de61b5a350833421311a02268dc5d) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/smskdeg2rad` [(#9318)](https://github.com/stdlib-js/stdlib/pull/9318) _(by Yohan Park)_
+-   [`d0e877e`](https://github.com/stdlib-js/stdlib/commit/d0e877ee2a6386c1cda0c426f5a5856cfa743762) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dmskrsqrt` [(#9317)](https://github.com/stdlib-js/stdlib/pull/9317) _(by Seoha Son)_
+-   [`2067ee5`](https://github.com/stdlib-js/stdlib/commit/2067ee5afec9a02107768999993f6fb05dbbce56) - **chore:** fix JavaScript lint errors [(#8992)](https://github.com/stdlib-js/stdlib/pull/8992) _(by Rohit R Bhat)_
+-   [`35f4223`](https://github.com/stdlib-js/stdlib/commit/35f42233477521be45e9553a9d569b2dca908516) - **chore:** fix JavaScript lint errors [(#8766)](https://github.com/stdlib-js/stdlib/pull/8766) _(by Krishna Awasthi, Athan Reines)_
+-   [`6c66165`](https://github.com/stdlib-js/stdlib/commit/6c66165552b1a15f06410c5a9068f60f0a651323) - **chore:** fix C lint errors [(#8727)](https://github.com/stdlib-js/stdlib/pull/8727) _(by Geo Daoyu)_
+-   [`2ee3e58`](https://github.com/stdlib-js/stdlib/commit/2ee3e58a2dbf7dc53327af863045fc829c161bc2) - **chore:** fix JavaScript lint errors [(#8270)](https://github.com/stdlib-js/stdlib/pull/8270) _(by Krie, Athan Reines)_
+-   [`f9011e1`](https://github.com/stdlib-js/stdlib/commit/f9011e106214504a2b9d049638021797b59c6ba6) - **bench:** replace stack allocation with dynamic allocation [(#7317)](https://github.com/stdlib-js/stdlib/pull/7317) _(by Navyansh Kesarwani, Athan Reines)_
+-   [`2c9f492`](https://github.com/stdlib-js/stdlib/commit/2c9f492d8e15e860aa56f9d3b5b3845191480700) - **chore:** fix C lint errors [(#8217)](https://github.com/stdlib-js/stdlib/pull/8217) _(by Geo Daoyu, Athan Reines)_
+-   [`4792a3c`](https://github.com/stdlib-js/stdlib/commit/4792a3cde7d7425fb1e83f3d7457a46aeba84ce0) - **chore:** fix C lint errors [(#8202)](https://github.com/stdlib-js/stdlib/pull/8202) _(by Geo Daoyu)_
+-   [`4f2a179`](https://github.com/stdlib-js/stdlib/commit/4f2a1793b12243ce6344a2a85380aa68dbb29a91) - **feat:** update `math/strided/special` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
+-   [`73ca98e`](https://github.com/stdlib-js/stdlib/commit/73ca98e9cdb6ebd848df6f2321f740237e85b3cd) - **chore:** fix C lint errors [(#8015)](https://github.com/stdlib-js/stdlib/pull/8015) _(by Geo Daoyu)_
+-   [`414da4a`](https://github.com/stdlib-js/stdlib/commit/414da4a5e617ad90a5e2908a0f01128dc3a1b623) - **chore:** fix C lint errors [(#7901)](https://github.com/stdlib-js/stdlib/pull/7901) _(by Geo Daoyu)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`72d2b0d`](https://github.com/stdlib-js/stdlib/commit/72d2b0d6c62a55f377bc25ed6ed1994465e42559) - **chore:** fix C lint errors [(#7716)](https://github.com/stdlib-js/stdlib/pull/7716) _(by Geo Daoyu)_
+-   [`e6091be`](https://github.com/stdlib-js/stdlib/commit/e6091be01ef6f610ef45be2504961b7aed957010) - **chore:** fix EditorConfig lint errors [(#7641)](https://github.com/stdlib-js/stdlib/pull/7641) _(by Lalit Narayan Yadav)_
+-   [`b817e6c`](https://github.com/stdlib-js/stdlib/commit/b817e6ccbf3137dffbc8cbdcb0c6aeefa843e0fa) - **chore:** fix EditorConfig lint errors [(#7628)](https://github.com/stdlib-js/stdlib/pull/7628) _(by Atharva Patil, Athan Reines)_
+-   [`eaefc47`](https://github.com/stdlib-js/stdlib/commit/eaefc4753cd023d939761614cf95d7e0b2ecc03d) - **chore:** fix C lint errors [(#7562)](https://github.com/stdlib-js/stdlib/pull/7562) _(by Geo Daoyu)_
+-   [`f00f57b`](https://github.com/stdlib-js/stdlib/commit/f00f57b9306b3c678f4bfd1719817c767299b3eb) - **chore:** fix C lint errors [(#7550)](https://github.com/stdlib-js/stdlib/pull/7550) _(by Geo Daoyu)_
+-   [`da3653b`](https://github.com/stdlib-js/stdlib/commit/da3653b8a9c8a2660bda4bf2db0668a38a5841ab) - **chore:** fix C lint errors [(#7545)](https://github.com/stdlib-js/stdlib/pull/7545) _(by Geo Daoyu)_
+-   [`59fda0c`](https://github.com/stdlib-js/stdlib/commit/59fda0ce064e449e51484a9724ca38abf1020762) - **fix:** update include path _(by Athan Reines)_
+-   [`f3447c1`](https://github.com/stdlib-js/stdlib/commit/f3447c17f9bdaffc9271c425aa9de5507bc37807) - **build:** fix function aliases _(by Athan Reines)_
+-   [`c05f9db`](https://github.com/stdlib-js/stdlib/commit/c05f9db53534dc0b8ea6430dd861a3efe40b7254) - **fix:** update supported dtypes _(by Athan Reines)_
+-   [`c17a2b8`](https://github.com/stdlib-js/stdlib/commit/c17a2b82f75b42e06a296f7fec15f77130a48483) - **chore:** regenerate generated files _(by Athan Reines)_
+-   [`98f079c`](https://github.com/stdlib-js/stdlib/commit/98f079c8e547af3270a0a700dea8365e52b1d6d7) - **chore:** fix C lint errors [(#7488)](https://github.com/stdlib-js/stdlib/pull/7488) _(by Geo Daoyu)_
+-   [`0e13713`](https://github.com/stdlib-js/stdlib/commit/0e13713f19e808617d4bff6b51af0d9ae6802e20) - **chore:** fix C lint errors [(#7370)](https://github.com/stdlib-js/stdlib/pull/7370) _(by Geo Daoyu)_
+-   [`a5bfb5a`](https://github.com/stdlib-js/stdlib/commit/a5bfb5a1845c37d0091853d303e4b65fd0cf2081) - **chore:** fix C lint errors [(#7218)](https://github.com/stdlib-js/stdlib/pull/7218) _(by Geo Daoyu)_
+-   [`0f9285b`](https://github.com/stdlib-js/stdlib/commit/0f9285bb140f803af27e71bd88afe609d0c9c743) - **chore:** fix C lint errors [(#7064)](https://github.com/stdlib-js/stdlib/pull/7064) _(by Geo Daoyu)_
+-   [`6caaaed`](https://github.com/stdlib-js/stdlib/commit/6caaaed5457f2d2143685454370f1e5da0b75c67) - **chore:** fix C lint errors [(#7071)](https://github.com/stdlib-js/stdlib/pull/7071) _(by Geo Daoyu)_
+-   [`a5f516c`](https://github.com/stdlib-js/stdlib/commit/a5f516c96d479568dca5099e24fe709977d3ec5b) - **chore:** fix EditorConfig lint errors [(#7137)](https://github.com/stdlib-js/stdlib/pull/7137) _(by Karan Vasudevamurthy)_
 -   [`6a4f52a`](https://github.com/stdlib-js/stdlib/commit/6a4f52a9c96dbdc023c2d85eaf1c33d8749a4202) - **docs:** correct domain of inverse coversed cosine _(by Karan Anand)_
--   [`5c3ca55`](https://github.com/stdlib-js/stdlib/commit/5c3ca5574141408ea5d00fd2030dcf0c70b82d3c) - **chore:** fix EditorConfig lint errors [(#6870)](https://github.com/stdlib-js/stdlib/pull/6870) _(by zhanggy)_
--   [`9415971`](https://github.com/stdlib-js/stdlib/commit/9415971fffd5a7a8db22479d086fa7f14d9392f0) - **chore:** fix EditorConfig lint errors [(#6863)](https://github.com/stdlib-js/stdlib/pull/6863) _(by zhanggy)_
+-   [`5c3ca55`](https://github.com/stdlib-js/stdlib/commit/5c3ca5574141408ea5d00fd2030dcf0c70b82d3c) - **chore:** fix EditorConfig lint errors [(#6870)](https://github.com/stdlib-js/stdlib/pull/6870) _(by Geo Daoyu)_
+-   [`9415971`](https://github.com/stdlib-js/stdlib/commit/9415971fffd5a7a8db22479d086fa7f14d9392f0) - **chore:** fix EditorConfig lint errors [(#6863)](https://github.com/stdlib-js/stdlib/pull/6863) _(by Geo Daoyu)_
 -   [`04143be`](https://github.com/stdlib-js/stdlib/commit/04143befd0ed0b0abd102d6c19c9ba4313ecfbae) - **style:** re-enable lint rule [(#6838)](https://github.com/stdlib-js/stdlib/pull/6838) _(by Shabareesh Shetty)_
 -   [`10afa3c`](https://github.com/stdlib-js/stdlib/commit/10afa3c844a1b99bbfec96620038be70e6f8c8de) - **style:** re-enable lint rule [(#6835)](https://github.com/stdlib-js/stdlib/pull/6835) _(by Lalit Narayan Yadav, Athan Reines)_
 -   [`29ca435`](https://github.com/stdlib-js/stdlib/commit/29ca435769a12baf1fe73fe37119eccc2994974a) - **chore:** disable lint rule [(#6677)](https://github.com/stdlib-js/stdlib/pull/6677) _(by Dipjyoti Das)_
@@ -36,8 +95,8 @@ A total of 12 issues were closed in this release:
 -   [`21cdb49`](https://github.com/stdlib-js/stdlib/commit/21cdb496f2a3fafe672022e1be0e261949f88a27) - **chore:** fix EditorConfig lint errors [(#6086)](https://github.com/stdlib-js/stdlib/pull/6086) _(by Sanchay Ketan Sinha, Aayush Khanna, stdlib-bot)_
 -   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`c7c1fb3`](https://github.com/stdlib-js/stdlib/commit/c7c1fb325f010a77313c58bfd51598af47720d89) - **refactor:** update paths _(by Gururaj Gurram)_
--   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Kaushikgtm)_
--   [`6010275`](https://github.com/stdlib-js/stdlib/commit/601027582bebc4b2f76cf9ea598a9646759f6bff) - **chore:** fix EditorConfig lint errors by replacing tabs with spaces [(#5910)](https://github.com/stdlib-js/stdlib/pull/5910) _(by Dhanyabad behera)_
+-   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Gautam Kaushik)_
+-   [`6010275`](https://github.com/stdlib-js/stdlib/commit/601027582bebc4b2f76cf9ea598a9646759f6bff) - **chore:** fix EditorConfig lint errors by replacing tabs with spaces [(#5910)](https://github.com/stdlib-js/stdlib/pull/5910) _(by Dhanyabad Behera)_
 -   [`0e31615`](https://github.com/stdlib-js/stdlib/commit/0e3161565a04f0f41fd52e70f9e816d9821bcb0b) - **chore(math):** replace tabs with spaces in `manifest.json` [(#5843)](https://github.com/stdlib-js/stdlib/pull/5843) _(by Anshu Kumar)_
 -   [`99a8508`](https://github.com/stdlib-js/stdlib/commit/99a85088ac88f39a2f28012248c40a8bf28e0cfd) - **chore:** fix C lint error [(#5804)](https://github.com/stdlib-js/stdlib/pull/5804) _(by Hemant M Mehta)_
 -   [`b0b646a`](https://github.com/stdlib-js/stdlib/commit/b0b646a0d8854af8ae3ecbadd1394cee0131f160) - **bench:** suppress uninitialized variable warning [(#5523)](https://github.com/stdlib-js/stdlib/pull/5523) _(by Yugal Kaushik)_
@@ -72,25 +131,38 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Anshu Kumar
 -   Athan Reines
--   Dhanyabad behera
+-   Atharva Patil
+-   Dhanyabad Behera
 -   Dipjyoti Das
+-   DivitJain26
+-   Gautam Kaushik
+-   Geo Daoyu
 -   Gururaj Gurram
 -   Hemant M Mehta
+-   Jugal Patel
 -   Karan Anand
--   Kaushikgtm
+-   Karan Vasudevamurthy
 -   Kavyansh-Bagdi
+-   Krie
+-   Krishna Awasthi
 -   Lalit Narayan Yadav
+-   Navyansh Kesarwani
 -   Philipp Burckhardt
 -   PrathamBhamare
+-   Rohit R Bhat
 -   Sanchay Ketan Sinha
+-   Seoha Son
 -   Shabareesh Shetty
+-   Shreelaxmi Hegde
+-   Yohan Park
 -   Yugal Kaushik
--   zhanggy
+-   kshitijgarg2811-oss
+-   nnyouung
 
 </section>
 
