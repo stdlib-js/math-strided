@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-23)
+## Unreleased (2026-04-06)
 
 <section class="issues">
 
@@ -24,6 +24,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`cd99fef`](https://github.com/stdlib-js/stdlib/commit/cd99fef661e7a5f6e600ee81295ec4dbc8501187) - **docs:** fix C examples [(#11135)](https://github.com/stdlib-js/stdlib/pull/11135) _(by anee3)_
+-   [`2c843b8`](https://github.com/stdlib-js/stdlib/commit/2c843b85223c779af86697cef8522f3f6d955976) - **bench:** refactor to use string interpolation in `math/strided/special/abs` [(#11092)](https://github.com/stdlib-js/stdlib/pull/11092) _(by Partha Das)_
+-   [`68a70e3`](https://github.com/stdlib-js/stdlib/commit/68a70e3e372c8c4c625977401a67d9ab4d9b9ae3) - **bench:** refactor to use string interpolation in `math/strided/ops/sub` [(#11093)](https://github.com/stdlib-js/stdlib/pull/11093) _(by Partha Das)_
 -   [`dc2ab17`](https://github.com/stdlib-js/stdlib/commit/dc2ab175c0358e31a4e1702c73d4c91c1a6c4e6b) - **chore:** fix JavaScript lint errors [(#11015)](https://github.com/stdlib-js/stdlib/pull/11015) _(by Baixiaochun, Athan Reines)_
 -   [`e514cd8`](https://github.com/stdlib-js/stdlib/commit/e514cd88083c5cfa4bbe539d9b92d64f44c42c8b) - **chore:** fix C lint errors [(#10981)](https://github.com/stdlib-js/stdlib/pull/10981) _(by Geo Daoyu)_
 -   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -39,13 +42,14 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Baixiaochun
 -   Geo Daoyu
 -   Partha Das
 -   Philipp Burckhardt
+-   anee3
 
 </section>
 
