@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-14)
+## Unreleased (2026-06-27)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,10 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`d541490`](https://github.com/stdlib-js/stdlib/commit/d541490b5563d9bc098c9229fb69bf4eeca3392b) - **docs:** update `math/strided/ops` TypeScript declarations [(#12591)](https://github.com/stdlib-js/stdlib/pull/12591) _(by stdlib-bot)_
+-   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - **fix:** address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457) _(by Philipp Burckhardt)_
+-   [`381ed21`](https://github.com/stdlib-js/stdlib/commit/381ed21a3a7d18b4978b69889d53b06741c9127d) - **docs:** correct grammar in descriptions [(#12461)](https://github.com/stdlib-js/stdlib/pull/12461) _(by Philipp Burckhardt)_
+-   [`7b1cb99`](https://github.com/stdlib-js/stdlib/commit/7b1cb991f5525a57cfa7254bb7682060a6d85c7b) - **chore:** use `format` for error messages in strided build scripts [(#12178)](https://github.com/stdlib-js/stdlib/pull/12178) _(by Philipp Burckhardt)_
 -   [`85ce241`](https://github.com/stdlib-js/stdlib/commit/85ce2413da6275c149f34964adef0678becfd220) - **docs:** add missing keywords in `math/strided/special` packages [(#11943)](https://github.com/stdlib-js/stdlib/pull/11943) _(by Philipp Burckhardt)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`bf821ca`](https://github.com/stdlib-js/stdlib/commit/bf821ca698340a14342ae1b12b5ea74b339f6adf) - **chore:** propagate recent fixes to sibling packages [(#11696)](https://github.com/stdlib-js/stdlib/pull/11696) _(by Philipp Burckhardt)_
