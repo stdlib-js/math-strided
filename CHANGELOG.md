@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-27)
+## Unreleased (2026-08-15)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`e8fac32`](https://github.com/stdlib-js/stdlib/commit/e8fac328731c2f7bb5b331edc9edf08048f67a18) - **docs:** update related packages sections [(#13820)](https://github.com/stdlib-js/stdlib/pull/13820) _(by stdlib-bot)_
 -   [`d541490`](https://github.com/stdlib-js/stdlib/commit/d541490b5563d9bc098c9229fb69bf4eeca3392b) - **docs:** update `math/strided/ops` TypeScript declarations [(#12591)](https://github.com/stdlib-js/stdlib/pull/12591) _(by stdlib-bot)_
 -   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - **fix:** address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457) _(by Philipp Burckhardt)_
 -   [`381ed21`](https://github.com/stdlib-js/stdlib/commit/381ed21a3a7d18b4978b69889d53b06741c9127d) - **docs:** correct grammar in descriptions [(#12461)](https://github.com/stdlib-js/stdlib/pull/12461) _(by Philipp Burckhardt)_
